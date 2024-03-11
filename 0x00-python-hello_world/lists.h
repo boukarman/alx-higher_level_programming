@@ -11,7 +11,6 @@
  * Description: structure node of singly linked list
  *
  */
-
 typedef struct listint_s
 {
 	int n;
@@ -23,5 +22,4 @@ listint_t *add_nodeint(listint_t **head, const int n);
 void free_listint(listint_t *head);
 int check_cycle(listint_t *list);
 listint_t **save_list(listint_t **list_array, listint_t *list, int size);
-
 #endif 
